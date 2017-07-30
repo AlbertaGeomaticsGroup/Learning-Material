@@ -1,5 +1,6 @@
-## Welcome to GitHub Pages
+## AGG Learning material
 
+Yuo can use this site to learn how to create webmaps and 
 You can use the [editor on GitHub](https://github.com/AlbertaGeomaticsGroup/Learning-Material/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
