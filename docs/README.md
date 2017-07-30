@@ -5,7 +5,7 @@ The lessons are meant to be followed in order as they build upon one another, bu
 
 
 ### Lesson 1
-[Demo](https://cdn.rawgit.com/AlbertaGeomaticsGroup/Learning-Material/6ca7202a/Lessons/Lesson-1/index.html)
+[Demo](https://cdn.rawgit.com/AlbertaGeomaticsGroup/Learning-Material/9a732b68/Lessons/Lesson-1/index.html)
 
 
 This is the first lesson of the project. 
