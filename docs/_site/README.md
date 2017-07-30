@@ -1,38 +1,23 @@
 ## AGG Learning material
 
-Yuo can use this site to learn how to create webmaps and 
-You can use the [editor on GitHub](https://github.com/AlbertaGeomaticsGroup/Learning-Material/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Follow along with the lesson plans here in order to learn how to create and edit webmaps.
+The lessons are meant to be followed in order as they build upon one another, but it is not necessary.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Lesson 1
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This is the first lesson of the project. 
+The intent of this lesson is to provide you with a basic handle on how to create a webmap and to understand the functions of the different components that make up a webmap. 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1
-## Header 2
-### Header 3
+### Lesson 2
 
-- Bulleted
-- List
+TODO
 
-1. Numbered
-2. List
+### Lesson 3
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AlbertaGeomaticsGroup/Learning-Material/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+TODO
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Having trouble with lessons or want to suggest new lessons? Create an [issue](https://github.com/AlbertaGeomaticsGroup/Learning-Material/issues) on our github page and we’ll help you sort it out or contact you for more info on your lesson idea.
