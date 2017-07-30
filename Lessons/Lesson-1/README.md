@@ -2,7 +2,7 @@ Lesson-1
 ========
 
 ## Demo
-[This]() is a live example of the map you will be creating.
+[This](https://cdn.rawgit.com/AlbertaGeomaticsGroup/Learning-Material/6ca7202a/Lessons/Lesson-1/index.html) is a live example of the map you will be creating.
 
 Create a webmap
 ---
