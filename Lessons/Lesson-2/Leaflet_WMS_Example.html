@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<meta name="description" content="Web Mapping Services Example">
+		<meta name="keywords" content="HTML,CSS,JavaScript">
+		<meta name="author" content="Gurkanwar Sra">
+		<meta charset="UTF-8">
+
+		<title>Leaflet WMS Example</title>
+
+		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" />
+
+		<style>
+				body {
+					padding: 0;
+					margin: 0;
+				}
+				html, body, #map {
+					height: 100%;
+					width: 100%;
+				}
+		</style>
+
+	</head>
+
+	<body>
+
+		<div id="map"></div>
+		<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"></script>
+
+		<script>
+			// Initialize Map
+			var map = L.map('map', {
+				center: [51.02, -114.03],
+				zoom: 11,
+				attributionControl: false // We define our own attribution
+			});
+
+			//Layer: OpenStreetMap Basemap
+			var osm = L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+				maxZoom: 99,
+				attribution: ' &copy;  <a href="http://openstreetmap.org">OpenStreetMap</a> Contributors',
+				id: 'mapbox.streets'
+			}).addTo(map);
+
+			//Layer: Alberta Township System
+			var wmsTwpLayer = L.tileLayer.wms('https://maps.alberta.ca/genesis_tokenauth/services/Alberta_Township_System/Latest/MapServer/WMSServer?', {
+			layers: '3',
+			opacity: 0.4
+			});
+
+			//Layer: Current Fires
+			var wmsFireLayer = L.tileLayer.wms('https://maps.alberta.ca/genesis_tokenauth/services/FireMap/Latest/MapServer/WMSServer?', {
+			layers: '2',
+			opacity: 0.5
+			});
+
+			L.control.layers(
+				{
+					"Open Street Map": osm,
+				},
+            	{
+                	"Alberta Township System": wmsTwpLayer,
+                	"Current Year Fire": wmsFireLayer,
+            	},
+            	{collapsed: false}
+        	).addTo(map)
+
+			L.control.attribution().addAttribution("<a target='_blank' href='https://www.albertageomaticsgroup.ca/'>Alberta Geomatics Group</a>").addTo(map)
+		</script>
+
+	</body>
+</html>
